@@ -1,0 +1,45 @@
+==[IDE]== 01-Jun-2021, 11:44:16 AM Initializing ...
+Initializing repository
+Creating git C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp/.git directory
+git init C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp
+==[IDE]== 01-Jun-2021, 11:44:20 AM Initializing ... finished.
+==[IDE]== 01-Jun-2021, 11:44:36 AM Committing...
+Git Commit
+----------
+git add C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\ant-deploy.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\project.properties C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\conf\MANIFEST.MF C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\index.html C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\WEB-INF\web.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\genfiles.properties C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\META-INF\context.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\java\HelloPackage\HelloServlet.java C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\java\HelloPackage\HelloServlet2.java C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\build-impl.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\build.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\project.xml
+git commit -m first commit C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\ant-deploy.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\project.properties C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\conf\MANIFEST.MF C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\index.html C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\WEB-INF\web.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\genfiles.properties C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\web\META-INF\context.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\java\HelloPackage\HelloServlet.java C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\src\java\HelloPackage\HelloServlet2.java C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\build-impl.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\build.xml C:\Users\sdc\Documents\NetBeansProjects\HelloWebApp\nbproject\project.xml
+Commit Log
+revision   : 0f278872e40824fa15254f18b0c6b30222582825
+author     : sdc <sdc@DESKTOP-1CVV3N7>
+date       : 01-Jun-2021, 11:44:39 AM
+summary    : first commit
+
+INFO: End of Commit
+
+==[IDE]== 01-Jun-2021, 11:44:40 AM Committing... finished.
+==[IDE]== 01-Jun-2021, 11:45:27 AM Pushing - HelloWebApp
+git branch
+git remote -v
+setting up remote: origin
+git submodule status
+git push https://github.com/rv-nataraj/HelloWebApp.git refs/heads/master:refs/heads/master
+
+Remote Repository Updates
+Branch Add : master
+Id         : 0f278872e40824fa15254f18b0c6b30222582825
+Result     : OK
+
+
+Local Repository Updates
+Branch Add : origin/master
+Id         : 0f278872e40824fa15254f18b0c6b30222582825
+Result     : NEW
+
+==[IDE]== 01-Jun-2021, 11:45:36 AM Setting Tracked Branch
+git branch --set-upstream-to origin/master master
+Branch master set to track origin/master
+
+==[IDE]== 01-Jun-2021, 11:45:36 AM Pushing - HelloWebApp finished.
+git branch --set-upstream-to origin/master master
+Branch "master" marked to track branch "origin/master"
+==[IDE]== 01-Jun-2021, 11:45:36 AM Setting Tracked Branch finished.
